@@ -17,10 +17,7 @@ The decoder architecture is based on the Transformer model, a powerful sequence-
 The model incorporates both causal self-attention and cross-attention mechanisms. Causal self-attention ensures that each word in the generated caption attends to previous words in a causal manner, preventing information leakage from future words. Cross-attention allows the model to attend to relevant parts of the image while generating each word in the caption.
 
 ## Training
-The model is trained using a combination of image features and tokenized captions. The training process involves optimizing the model parameters to minimize a loss function, typically a combination of cross-entropy loss and regularization terms. Early stopping is employed to prevent overfitting and improve generalization performance.
-
-## Evaluation
-The trained model is evaluated on a separate test set using metrics such as BLEU score, METEOR score, and CIDEr score. These metrics measure the quality and similarity of generated captions compared to ground truth captions.
+The model is trained using a combination of image features and tokenized captions. Early stopping is employed to prevent overfitting and improve generalization performance.
 
 ## Usage
 To use the trained model for image captioning, simply provide an image input, and the model will generate a descriptive caption for the image. The model can be deployed in various applications such as image search engines, assistive technologies for the visually impaired, and content creation tools.
