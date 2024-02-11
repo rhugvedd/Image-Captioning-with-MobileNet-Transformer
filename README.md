@@ -1,5 +1,7 @@
 # Image Captioning with MobileNet Transformer
 
+[Undertook in 2023, Opened Github in 2024, Hence posting in 2024]
+
 ## Overview
 This project aims to generate descriptive captions for images using a combination of the Flickr8k dataset, a MobileNet feature extractor, and a Transformer-based decoder. Image captioning is a challenging task in computer vision and natural language processing, requiring the model to understand both visual and textual information to generate accurate and meaningful captions.
 
